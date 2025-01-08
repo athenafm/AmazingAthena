@@ -1,5 +1,6 @@
 project:
   type: website
+  output-dir: docs
 
 website:
   title: "AmazingAthena"
@@ -7,9 +8,10 @@ website:
     right:
       - about.qmd
       - icon: github
-        href: https://github.com/
-      - icon: twitter
-        href: https://twitter.com
+        href: https://github.com/athenafm/
+      #- icon: twitter
+      ## Use your own social media link
+      #  href: https://twitter.com
 format:
   html:
     theme: cosmo
@@ -17,3 +19,9 @@ format:
 
 editor: visual
 
+comments:
+  giscus:
+    repo: athenafm/AmazingAthena
+
+execute:
+  freeze: true
