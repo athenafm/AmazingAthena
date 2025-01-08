@@ -19,9 +19,9 @@ format:
 
 editor: visual
 
-comments:
-  giscus:
-    repo: athenafm/AmazingAthena
+#comments:
+#  giscus:
+#    repo: athenafm/AmazingAthena
 
 execute:
   freeze: true
